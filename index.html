@@ -9,43 +9,155 @@
     <title>Whiskey Drop I Taste a new whiskey every month</title>
 </head>
 <body>
-    <article class="container">
-        <section class="callout">
-            <h1>The finest whiskeys delivered to your doorstep.</h1>
-            <p><strong><mark>Sign up today to start receiving the world's best whiskey every month.<s>$19.99</s>First one is free!</mark></strong></p>
-        </sect class="text-muted"ion>
+    <nav class="navbar navbar-light bg-light navbar-expand-sm">
+        <a href="/" class="navbar-brand">Whiskey Drop</a>
+        <ul class="navbar-nav mr-auto">
+            <li class="active nav-item mr-2"><a class="nav-link" href="/Home">Home</a></li>
+            <li class="nav-item mr-2"><a class="nav-link" href="/about">About</a></li>
+            <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/sign in / sign up">Sign in / Sign up</a></li>
+        </ul>
+        <div class="d-none d-md-block">
+            <p class="navbar-text my-auto mr-2"><i>Great whiskey delivered to your door!</i></p>
+            <a href="/login">Sign in / Sign up</a>
+        </div>
+    </nav>
+    <article class="container mt-3">
+
+    <!--Callout-->
+
+        <div class="row">
+            <div class="col-12">
+                <section class="callout jumbotron text-center">
+                    <h1>The finest whiskeys delivered to your doorstep.</h1>
+                    <p>Sign up today to start receiving the world's best whiskey every month
+                    <s class="d-none d-sm-inline">$19.99</s>
+                    <span class="d-inline d-sm-none"><br></span>
+                    <strong><mark>First one is free!</mark></strong></p>
+                    <button class="btn btn-success btn-lg">Sign up!</button>
+                    <p class="text-muted">You must be over 18 to sign up for our service, please drink responsibly</p>
+                </section>
+            </div>
+        </div>
+
+        <!--/Callout-->
 
         <hr>
         
+        <!--Quotes-->
+
         <section class="quotes">
-            <h2 class="text-uppercase">Quotes:</h2>
-            <div class="quote">
-                <p>I've been introduced to more than 10 great international whiskeys I knew about</p>
-                <p>- Jane Doe</p>
+            <div class="row">
+                <div class="col-12 my-5">
+                    <h2 class="text-uppercase">Quotes:</h2>
+                </div>
             </div>
-            <div class="quote">
-                <p>I haven't been sober for months!</p>
-                <p>- Jane Doe</p>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="media">
+                        <div class="d-none d-sm-block">
+                            <img alt="Picture of girl" class="rounded-circle mr-3" height=100 width=100 src="https://raw.githubusercontent.com/Code-Institute-Solutions/BootstrappingYourNextBigIdea-BS4/master/03-Components/02-core_components-part-2/images/girl-image.png">
+                        </div>
+                        <div class="media-body">
+                            <blockquote class="blockquote">
+                                <p>I've been introduced to more than 10 great international whiskeys I never knew about</p>
+                                <p>- Jane Doe</p>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="media">
+                        <div class="d-none d-sm-block">
+                        <img alt="Picture of guy" class="rounded-circle mr-3" height=100 width=100 src="https://raw.githubusercontent.com/Code-Institute-Solutions/BootstrappingYourNextBigIdea-BS4/master/03-Components/02-core_components-part-2/images/guy-image.png">
+                        </div>
+                        <div class="media-body">
+                            <blockquote class="blockquote">
+                                <p>I haven't been sober for months!</p>
+                                <p>- Jane Doe</p>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
-        <!-- Quotes -->
+
+        <!-- /Quotes -->
+
         <hr>
 
         <!-- Features -->
+
         <section class="features">
-            <h2>Features</h2>
-            <div class="feature">
-                <h3>Feature 1</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae iusto corrupti et tenetur? Blanditiis dicta, ut dolore asperiores provident quod cumque voluptatibus id magnam suscipit voluptas voluptatum ipsam totam voluptate nihil nesciunt, impedit sunt minima?</p>
+            <div class="row">
+                <div class="col-12 col-md-6 my-5">
+                    <h2 class="text-uppercase">Features</h2>
+                </div>
             </div>
-            <div class="feature">
-                <h3>Feature 2</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, sapiente ratione. Impedit, rem, reiciendis illo pariatur sit rerum beatae ut cumque similique unde ad, harum at vel iste doloribus. Beatae commodi fugit fugiat vero laudantium.</p>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="feature">
+                        <h3>Feature 1</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae iusto corrupti et tenetur? Blanditiis dicta, ut dolore asperiores provident quod cumque voluptatibus id magnam suscipit voluptas voluptatum ipsam totam voluptate nihil nesciunt, impedit sunt minima?</p>
+                        <p><a class="btn btn-sm btn-light" href="http://" target="_blank" rel="noopener noreferrer">Read More</a></p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="feature">
+                        <h3>Feature 2</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, sapiente ratione. Impedit, rem, reiciendis illo pariatur sit rerum beatae ut cumque similique unde ad, harum at vel iste doloribus. Beatae commodi fugit fugiat vero laudantium.</p>
+                        <p><a class="btn btn-sm btn-light" href="http://" target="_blank" rel="noopener noreferrer">Read More</a></p>
+                    </div>
+                </div>
+                <div class="col-12 d-md-none d-lg-block col-lg-4">
+                    <div class="feature">
+                        <h3>Feature 3</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quidem quis maiores sapiente voluptatibus omnis, in voluptate totam. Illo, eos? Quasi dolorum molestias rerum, alias, magni aut, nihil et officiis eius similique consequuntur?</p>
+                        <p><a class="btn btn-sm btn-light" href="http://" target="_blank" rel="noopener noreferrer">Read More</a></p>
+                    </div>
+                </div>
             </div>
-            <div class="feature">
-                <h3>Feature 3</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quidem quis maiores sapiente voluptatibus omnis, in voluptate totam. Illo, eos? Quasi dolorum molestias rerum, alias, magni aut, nihil et officiis eius similique consequuntur?</p>
-            </div>
+        </section>
+
+        <!--/Features-->
+
+        <section>
+            <h1>Monthly Favourites</h1>
+            <table class="table table-dark">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Country</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Gaelic Fire</td>
+                        <td>Irish</td>      
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Stonewall's Bourbon</td>
+                        <td>American</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>McDouglas Highlander</td>
+                        <td>Scotland</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>Robert the Bruce's Companion</td>
+                        <td>Scotland</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td>Angus' Temperance</td>
+                        <td>British</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
     </article>
 </body>
