@@ -1,1 +1,1 @@
-This page is made with Bootstrap
+This page was made with Bootstrap and uses HTML5, CSS3 and Javascript
